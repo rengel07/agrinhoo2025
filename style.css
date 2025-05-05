@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Cor de fundo suave */
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Cabeçalho */
+  h1 {
+    color: #0066cc;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Botões interativos */
+  button {
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    margin: 10px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background-color: #005bb5;
+    transform: scale(1.05);
+  }
+  
+  /* Links com efeito de hover */
+  a {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #004999;
+    text-decoration: underline;
+  }
+  
+  /* Seções com efeito de destaque ao passar o mouse */
+  section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  
+  section:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+  }
+  
+  /* Formulários */
+  input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    border-color: #0066cc;
+    outline: none;
+  }
+  
+  /* Feedback visual ao enviar formulário */
+  input[type="submit"] {
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #005bb5;
+    transform: scale(1.05);
+  }
