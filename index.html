@@ -1,42 +1,108 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Conexão entre o Campo e a Cidade</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #e0f7fa;
-      margin: 0;
-      padding: 20px;
-      text-align: center;
-    }
-    h1 {
-      color: #00796b;
-    }
-    .map-container {
-      position: relative;
-      width: 100%;
-      max-width: 800px;
-      margin: 20px auto;
-    }
-    /* Aqui você pode inserir um mapa ou uma imagem representando o campo e a cidade */
-    img {
-      width: 100%;
-      height: auto;
-    }
-    /* Linhas ou animações podem ser adicionadas aqui para mostrar a conexão */
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Agrinho: Conexão Campo-Cidade</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .intro {
+            background-color: #e0f7fa;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .conexao {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .conexao div {
+            flex: 1 1 45%;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        @media(max-width: 768px) {
+            .conexao {
+                flex-direction: column;
+            }
+            .conexao div {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
 </head>
 <body>
-  <h1>Conexão entre o Campo e a Cidade</h1>
-  <div class="map-container">
-    <!-- Substitua pela sua imagem de mapa ou ilustração -->
-    <img src="https://www.asbran.org.br/storage/imgnews/dest_1496866183.png" alt="Mapa do campo e cidade" />
-  </div>
-  <p>Este projeto demonstra a relação e a troca entre o campo e a ambiente urbano, promovendo a integração e o desenvolvimento sustentável.</p>
-</body>
-</html>
+    <header>
+        <h1>Projeto Agrinho: Conexão Campo-Cidade</h1>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#importancia">Importância</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section id="sobre" class="intro">
+        <h2>Sobre o Projeto</h2>
+        <p>
+            O projeto "Conexão Campo-Cidade" busca fortalecer os laços entre as áreas rurais e urbanas, promovendo a troca de conhecimentos, culturas e boas práticas. Nosso objetivo é mostrar a importância de valorizar o campo e a cidade, promovendo o desenvolvimento sustentável e a integração social.
+        </p>
+    </section>
+
+    <section id="importancia">
+        <h2>Por que é importante?</h2>
+        <div class="conexao">
+            <div>
+                <h3>Para o Campo</h3>
+                <p>Valorização da produção, inovação e conexão com o urbano.</p>
+            </div>
+            <div>
+                <h3>Para a Cidade</h3>
+                <p>Reconhecimento da importância do campo na alimentação e cultura.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2
